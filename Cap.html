@@ -6,7 +6,7 @@ function captureScreenshot($url)
 
   $api_key = "YOUR_API_KEY";
 
-  $request = "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url={$url}&key=" . $api_key;
+  $request = "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url={$url}&key=AIzaSyCeyEBTaOTljNgDzwja7xEwQGlfWQMML2A" . $api_key;
 
   $hit = file_get_contents($request);
 
